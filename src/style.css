@@ -1,38 +1,154 @@
+/* ---------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	color: #555;
+	font-size: 24px;
+}
+
+/* ---------------------------------*/
+/* REUSABLE COMPONENTS */
+/*----------------------------------*/
+
+h1 {
+	font-size: 300%;
+}
+
+h2 {
+	font-size: 300%;
+}
+
+/* Lines */
+h1::after {
+	display: block;
+	height: 2px;
+	background-color: #fff;
+	content: ' ';
+	width: 335px;
+	margin: 0 -3px;
+	margin-top: 0px;
+}
+
+h2::after {
+	display: block;
+	height: 2px;
+	background-color: #000;
+	content: ' ';
+	width: 83%;
+	margin: 0 -75px;
+	margin-top: 0px;
+}
+
+h3::after {
+	display: block;
+	height: 2px;
+	background-color: #fff;
+	content: ' ';
+	width: 750px;
+	margin: 0 -3px;
+	margin-top: 0px;
+}
+
+h4::after {
+	display: block;
+	height: 2px;
+	background-color: #000;
+	content: ' ';
+	width: 100%;
+	margin: 22% -11%;
+	margin-top: 0px;
+}
+
+.vline {
+	border-left: 2px solid #fff;
+	height: 84vh;
+	position: absolute;
+	left: 0%;
+	margin-left: -3px;
+}
+
+.vline-two {
+	border-left: 2px solid #000;
+	height: 91vh;
+	position: absolute;
+	left: 75%;
+	margin-left: -3px;
+	top: -70vh;
+}
+
+.top-line {
+	top: -255%;
+	left: 56%;
+}
+
+.bottom-line {
+	top: 797%;
+	left: 30%;
+}
+
+/* ---------------------------------*/
+/* Background */
+/*----------------------------------*/
+
 .split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: -1;
-  top:0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left:0;
-  background-color: #363a35;
-  color: #fff;
-}
-
-.right {
-  right: 0;
-  background-color: #9ab993;
-
+	height: 100vh;
+	width: 50%;
+	position: fixed;
+	z-index: -1;
+	overflow-x: hidden;
+	padding-top: 20px;
 }
 
 .centered {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: left;
+	width: 100%;
 }
 
+.home {
+	top: 0;
+}
+
+/* Left */
+
+.left {
+	left: 0;
+	background-color: #2f4858;
+	color: #fff;
+}
+
+.left-side {
+	top: 10%;
+	left: 70%;
+}
+
+/* Right */
+.right {
+	right: 0;
+	background-color: #a983ac;
+	font-family: monospace;
+}
+
+.right-side {
+	top: 80%;
+	left: 55%;
+}
+
+/* Image */
 .center-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  width: 55%;
-  z-index: 100;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	width: 35%;
+	z-index: 80;
+	opacity: 0.8;
 }

@@ -5,20 +5,13 @@ import AboutMe from './components/AboutMe';
 
 //styling imports
 import './style.css';
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
 
 const App = () => {
 	return (
-		<Container>
-			<Row>
-				<Col>
-					<Home />
-				</Col>
-			</Row>
-
-		</Container>
+		<div>
+			<Home />
+			{/* <AboutMe /> */}
+		</div>
 	);
 };
 

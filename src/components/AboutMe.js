@@ -2,12 +2,10 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>
-
-      <h1> Here I am </h1>
+  <div>
     <div className='split left about'>
       <div className='centered'>
-        <h1>Left Side</h1>
+        <h1 classnName='left'>Left Side</h1>
       </div>
     </div>
     <div >
