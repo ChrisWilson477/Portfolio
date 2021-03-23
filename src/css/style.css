@@ -21,7 +21,7 @@
 	overflow: hidden;
 }
 
-.Row {
+.row {
   width: 1140px;
   margin: 0 auto;
 }
@@ -45,6 +45,15 @@ header {
 /* REUSABLE COMPONENTS */
 /*----------------------------------*/
 
+.box {
+	padding: 1%;
+}
+
+h3 {
+	text-align: center;
+	font-size: 200%;
+
+}
 
 /* ---------------------- */
 /* ---- Navigation ---- */

@@ -6,7 +6,7 @@ import Fade from 'react-reveal/fade';
 const Home = () => {
   return (
     <div className='home'>
-      <div className='row '>
+      <div className='row'>
         <div className='hero-text'>
           <Fade delay={800}>
           <h1 className='home-left-text'>Hi, I'm Chris.</h1>
