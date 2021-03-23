@@ -1,0 +1,121 @@
+/* ---------------------- */
+/* ---- Basic Setup ---- */
+/* ---------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+
+.Row {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(27, 26, 27, 0.822),
+      rgba(17, 46, 25, 0.7)
+    ),
+    url(../images/bridge.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+/* ---------------------------------*/
+/* REUSABLE COMPONENTS */
+/*----------------------------------*/
+
+
+/* ---------------------- */
+/* ---- Navigation ---- */
+/* ---------------------- */
+.Nav-ul {
+  float: right;
+  list-style: none;
+  margin-top: 5%;
+  margin-right: -10%;
+}
+
+.Nav-ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.Nav-ul li a:link,
+.Nav-ul li a:visited {
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  padding: 8px 0;
+  transition: 0.2s;
+}
+
+.Nav-ul li a:hover,
+.Nav-ul li a:active {
+  border-bottom: 2px solid rgb(252, 100, 12);
+}
+ .Nav-logo {
+	 height: 100px;
+	 width: 100px;
+	 float: left;
+	 margin-top: 5%;
+	 margin-left: 5%;
+ }
+
+/* ---------------------------------*/
+/* Home Page */
+/*----------------------------------*/
+
+
+.home-left-text {
+	position:absolute;
+	color: #b3d7ab;
+	text-align: center;
+	font-size: 300%;
+	top: 23%;
+	left: 17%;
+}
+
+.home-paragraph-text {
+	position:absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 140%;
+	top: 32%;
+	left: 23%;
+}
+
+.home-paragraph-text-two {
+	position:absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 140%;
+	top: 36%;
+	left: 30%;
+}
+
+.home-right-text {
+	position: absolute;
+	font-family: monospace;
+	color: #fff;
+	text-align: center;
+	font-size: 250%;
+	top: 65%;
+	right: 15%;
+}
+
