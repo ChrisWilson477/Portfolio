@@ -4,26 +4,20 @@ import BrainHeart from '../images/brainheart.png'
 const Home = () => {
   return (
     <div>
-      <header>
-      <div className='split left home'>
-        <div className='centered left-side'>
-          <h1 className='left text '>Hi, I'm Chris.</h1>
-          <h3 className='centered bottom-line' />
-          <div className='vline' />
-
+      <div className='row '>
+        <div className='col home-left-side-background'>
+          <h1 className='home-left-text'>Hi, I'm Chris.</h1>
+          <div className='left-vline' />
+          {/* <h1 className='home-bottom-line'>h</h1> */}
+        </div>
+        <div className='center-img' >
+        <img src={BrainHeart} alt='Half brain, half-heart' />
+        </div>
+        <div className='col home-right-side-background'>
+          <h2 className='home-right-text'>let's design <br /> something</h2>
+          <div className='right-vline' />
         </div>
       </div>
-      <div >
-      <img src={BrainHeart} alt='Half brain, half-heart' className='center-img'/>
-      </div>
-      <div className='split right home'>
-        <div className='centered right-side'>
-        <div className='vline-two' />
-        <h4 className='centered top-line' />
-        <h2 className='right text'>let's design <br /> something</h2>
-        </div>
-      </div>
-      </header>
     </div>
   )
 }

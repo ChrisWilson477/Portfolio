@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 
 //styling imports
 import './style.css';
+import'./media_queries.css';
 
 const App = () => {
 	return (
