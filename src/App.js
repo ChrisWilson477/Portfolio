@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe';
 //styling imports
 import './css/style.css';
 import './css/media_queries.css';
+import './css/grid.css';
 
 const App = () => {
 	return (

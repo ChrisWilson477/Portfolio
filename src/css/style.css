@@ -8,6 +8,9 @@
   box-sizing: border-box;
 }
 
+.root{
+	overflow:hidden;
+}
 .App {
   background-color: #fff;
   color: #555;
@@ -15,13 +18,15 @@
   font-size: 20px;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .Row {
   width: 1140px;
   margin: 0 auto;
 }
+
+
 
 header {
   background-image: linear-gradient(
@@ -33,6 +38,7 @@ header {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
+
 }
 
 /* ---------------------------------*/
@@ -74,13 +80,16 @@ header {
 	 width: 100px;
 	 float: left;
 	 margin-top: 5%;
-	 margin-left: 5%;
+   margin-left: -5%
  }
 
 /* ---------------------------------*/
 /* Home Page */
 /*----------------------------------*/
 
+.home {
+ padding: 0;
+}
 
 .home-left-text {
 	position:absolute;
@@ -117,6 +126,12 @@ header {
 	font-size: 250%;
 	top: 65%;
 	right: 15%;
-	transition: 3s;
 }
 
+/* ---------------------------------*/
+/* About Me */
+/*----------------------------------*/
+
+.AboutMe {
+  margin-top: 100px;
+}
