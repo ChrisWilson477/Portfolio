@@ -117,5 +117,6 @@ header {
 	font-size: 250%;
 	top: 65%;
 	right: 15%;
+	transition: 3s;
 }
 
