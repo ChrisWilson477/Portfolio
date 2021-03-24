@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
-import Professional from './components/Professional';
+import Projects from './components/Projects';
 // import Personal from './components/Personal'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 //styling imports
 import './css/style.css';
@@ -22,9 +23,10 @@ const App = () => {
 			</header>
 			<div className="Container">
 				<AboutMe />
-				<Professional />
+				<Projects />
 				{/* <Personal /> */}
 				<Contact />
+				<Footer />
 			</div>
 		</div>
 	);

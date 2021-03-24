@@ -148,10 +148,9 @@ h3::after {
 /* About Me */
 /*----------------------------------*/
 
-.AboutMe {
+.about-me-section {
 	padding-top: 100px;
-	padding-bottom: 250px;
-	background-color: #f4f4f4
+	padding-bottom: 275px;
 }
 
 .about-me-paragraph {
@@ -168,12 +167,49 @@ h3::after {
 }
 
 /* ---------------------------------*/
+/* Projects */
+/*----------------------------------*/
+
+.projects-section {
+	padding-top: 100px;
+	padding-bottom: 275px;
+	background-color: #f4f4f4
+}
+
+
+
+.project-box img {
+	width: 50%;
+	height: auto;
+	margin-bottom: 15px;
+	margin-top: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.project-box h4{
+	text-align: center;
+}
+
+.project-box p {
+	padding: 10px 5px;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+
+/* ---------------------------------*/
 /* Contact */
 /*----------------------------------*/
 
 .contact-section {
-	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .contact-me-body {
@@ -199,3 +235,12 @@ h3::after {
 	color: #b3d7ab;
 }
 
+
+/* ---------------------------------*/
+/* Footer */
+/*----------------------------------*/
+
+footer {
+	background-color: #333;
+	height: 100px;
+}
