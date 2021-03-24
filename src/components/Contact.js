@@ -10,7 +10,7 @@ const Contact = () => {
 	return (
 		<div className="contact-section" id="ContactMe">
 			<div className="row">
-				<h3>Please Reach out to me!</h3>
+				<h3>Please reach out to me!</h3>
 			</div>
 			<div className="row contact-me-body">
 				<div className="col">

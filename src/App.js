@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 import './css/style.css';
 import './css/media_queries.css';
 import './css/grid.css';
-import {FaLinkedin, FaInstagram, FaFacebookSquar, FaEnvelope } from 'react-icons/fa'
+
 
 const App = () => {
 	return (

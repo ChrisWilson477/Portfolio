@@ -199,6 +199,27 @@ h3::after {
 	text-align: center;
 }
 
+.project-box p a:Link,
+.project-box p a:visited {
+color: rgb(17, 62, 209);
+text-decoration: none;
+}
+
+.project-box p a:active,
+.project-box p a:hover {
+color: #b3d7ab
+}
+
+.project-box ul {
+	list-style: none;
+	text-align: center;
+}
+
+.project-box ul li{
+	display: inline-block;
+	color: #b3d7ab;
+}
+
 
 
 
