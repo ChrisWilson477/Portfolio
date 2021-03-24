@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
+import Professional from './components/Professional';
 
 //styling imports
 import './css/style.css';
@@ -18,7 +19,7 @@ const App = () => {
 			</header>
 			<div className="Container">
 				<AboutMe />
-				{/* <Professional /> */}
+				<Professional />
 				{/* <Personal /> */}
 			</div>
 		</div>
