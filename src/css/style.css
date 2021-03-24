@@ -50,7 +50,16 @@ header {
 h3 {
 	text-align: center;
 	font-size: 200%;
+}
 
+h3::after {
+	display:block;
+	height: 2px;
+	background-color: #e67e22;
+	content: ' ';
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 25px;
 }
 
 /* ---------------------- */
@@ -141,12 +150,13 @@ h3 {
 
 .AboutMe {
 	padding-top: 100px;
+	padding-bottom: 250px;
 	background-color: #f4f4f4
 }
 
 .about-me-paragraph {
 	text-align: left;
-  padding-top: 60px;
+  padding-top: 100px;
 
 }
 
@@ -156,3 +166,36 @@ h3 {
 	text-align: center;
   border-radius: 5%;
 }
+
+/* ---------------------------------*/
+/* Contact */
+/*----------------------------------*/
+
+.contact-section {
+	padding-top: 100px;
+	padding-bottom: 90px;
+}
+
+.contact-me-body {
+	padding-top: 80px;
+}
+
+.contact-paragraph {
+	font-size: 130%;
+	text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+	padding: 60px;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.social-icons li a{
+	color: #b3d7ab;
+}
+
