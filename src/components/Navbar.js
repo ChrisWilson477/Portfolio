@@ -3,8 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='row'>
-    <img className='Nav-logo' alt='Logo' href='#' />
-    <ul className='Nav-ul'>
+    <img className='nav-logo' alt='Logo' href='#' />
+    <ul className='nav-ul'>
       <li><a href='#Home'>Home</a></li>
       <li><a href='#AboutMe'>About Me</a></li>
       <li><a href='#Projects'>Projects</a></li>

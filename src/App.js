@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-// import Personal from './components/Personal'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -24,7 +23,6 @@ const App = () => {
 			<div className="Container">
 				<AboutMe />
 				<Projects />
-				{/* <Personal /> */}
 				<Contact />
 				<Footer />
 			</div>

@@ -65,20 +65,20 @@ h3::after {
 /* ---------------------- */
 /* ---- Navigation ---- */
 /* ---------------------- */
-.Nav-ul {
+.nav-ul {
   float: right;
   list-style: none;
   margin-top: 5%;
   margin-right: -10%;
 }
 
-.Nav-ul li {
+.nav-ul li {
   display: inline-block;
   margin-left: 40px;
 }
 
-.Nav-ul li a:link,
-.Nav-ul li a:visited {
+.nav-ul li a:link,
+.nav-ul li a:visited {
   color: white;
   text-decoration: none;
   font-size: 90%;
@@ -87,11 +87,11 @@ h3::after {
   transition: 0.2s;
 }
 
-.Nav-ul li a:hover,
-.Nav-ul li a:active {
+.nav-ul li a:hover,
+.nav-ul li a:active {
   border-bottom: 2px solid rgb(252, 100, 12);
 }
- .Nav-logo {
+ .nav-logo {
 	 height: 100px;
 	 width: 100px;
 	 float: left;
@@ -136,12 +136,11 @@ h3::after {
 
 .home-right-text {
 	position: absolute;
-	font-family: monospace;
 	color: #fff;
 	text-align: center;
 	font-size: 250%;
-	top: 65%;
-	right: 15%;
+	top: 55%;
+	right: 25%;
 }
 
 /* ---------------------------------*/
@@ -217,7 +216,55 @@ color: #b3d7ab
 
 .project-box ul li{
 	display: inline-block;
-	color: #b3d7ab;
+	padding-top: 15px;
+
+}
+
+.message-icon:hover {
+  color: #dd4b39;
+}
+
+.facebook-icon:hover {
+	color: #1877f2;
+}
+
+.instagram-icon:hover {
+	color: #c32aa3;
+}
+.linkedin-icon:hover {
+  color: #0a66c2;
+}
+
+.js-icon{
+  color: #f7df1e
+}
+
+.node-icon {
+  color: #44883e
+}
+
+.docker-icon {
+  color: #0db7ed;
+}
+
+.css-icon {
+  color: #264de4
+}
+
+.html-icon {
+  color: #e34f26
+}
+
+.aws-icon {
+  color: #ff9900
+}
+
+.postgresql-icon {
+  color:  #0064a5
+}
+
+.react-icon{
+	color: #61DBFB
 }
 
 
@@ -255,6 +302,8 @@ color: #b3d7ab
 .social-icons li a{
 	color: #b3d7ab;
 }
+
+
 
 
 /* ---------------------------------*/

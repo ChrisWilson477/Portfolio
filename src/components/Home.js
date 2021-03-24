@@ -20,7 +20,7 @@ const Home = () => {
         </div>
         <div className='col home-right-side-background'>
          <Rotate top right delay={3000}>
-          <h2 className='home-right-text'>let's design <br />something</h2>
+          <h2 className='home-right-text'>let's design <br />something.</h2>
           </Rotate>
         </div>
       </div>

@@ -25,18 +25,18 @@ const Projects = () => {
 				<div className="col span-1-of-3 project-box">
 					<img src="#" href="#" alt="Project1" />
 					<h4>Description</h4>
-					<p>Built eCommerce clothing page as part of a small team </p>
+					<p>Built eCommerce clothing page using React as part of a small team </p>
 					<p><a href=''>GitHub</a></p>
 					<p>
 						<strong>Technology Used:</strong>
             </p>
             <ul>
-              <li><FaJsSquare size='45px' title='Javascript'/></li>
-              <li><FaNodeJs size='45px' title='Node.js'/></li>
-              <li><FaReact size='45px' title='React'/></li>
-              <li><FaCss3Alt size='45px' title='CSS'/></li>
-              <li><FaHtml5 size='45px' title='HTML5'/></li>
-              <li><FaDocker size='45px' title='Docker'/></li>
+              <li><FaJsSquare size='45px' title='Javascript' className='js-icon'/></li>
+              <li><FaNodeJs size='45px' title='Node.js' className='node-icon'/></li>
+              <li><FaReact size='45px' title='React' className='react-icon'/></li>
+              <li><FaCss3Alt size='45px' title='CSS' className='css-icon'/></li>
+              <li><FaHtml5 size='45px' title='HTML5' className='html-icon'/></li>
+              <li><FaDocker size='45px' title='Docker' className='docker-icon'/></li>
 
             </ul>
 				</div>
@@ -51,30 +51,30 @@ const Projects = () => {
 						<strong>Technology Used:</strong>
 					</p>
 					<ul>
-              <li><FaJsSquare size='45px' title='Javascript'/></li>
-              <li><FaNodeJs size='45px' title='Node.js'/></li>
-              <li><FaReact size='45px' title='React'/></li>
-              <li><FaAws size='45px' title='Amazon Web Services'/></li>
-              <li><SiPostgresql size='45px' title='PostgreSQL' /></li>
-              <li><FaDocker size='45px' title='Docker' /></li>
+              <li><FaJsSquare size='45px' title='Javascript' className='js-icon'/></li>
+              <li><FaNodeJs size='45px' title='Node.js' className='node-icon'/></li>
+              <li><FaReact size='45px' title='React' className='react-icon'/></li>
+              <li><SiPostgresql size='45px' title='PostgreSQL' className='postgresql-icon'/></li>
+              <li><FaDocker size='45px' title='Docker' className='docker-icon'/></li>
+							<li><FaAws size='45px' title='Amazon Web Services' className='aws-icon'/></li>
 
             </ul>
 				</div>
 				<div className="col span-1-of-3 project-box">
 					<img src="#" href="#" alt="Project1" />
 					<h4>Description</h4>
-					<p>Built a mobile app to track moods for daily use</p>
+					<p>Built a mobile app with React Native to track moods for daily use</p>
 					<p><a href=''>GitHub</a></p>
 					<p>
 						<strong>Technology Used:</strong>
 					</p>
 					<ul>
-              <li><FaJsSquare size='45px' title='Javascript'/></li>
-              <li><FaNodeJs size='45px' title='Node.js'/></li>
-              <li><FaReact size='45px' title='React'/></li>
-              <li><FaAws size='45px' title='Amazon Web Services'/></li>
-							<li><FaCss3Alt size='45px' title='CSS'/></li>
-              <li><FaHtml5 size='45px' title='HTML5'/></li>
+              <li><FaJsSquare size='45px' title='Javascript' className='js-icon'/></li>
+              <li><FaNodeJs size='45px' title='Node.js' className='node-icon'/></li>
+              <li><FaReact size='45px' title='React' className='react-icon'/></li>
+							<li><FaCss3Alt size='45px' title='CSS' className='css-icon'/></li>
+              <li><FaHtml5 size='45px' title='HTML5' className='html-icon'/></li>
+							<li><FaAws size='45px' title='Amazon Web Services' className='aws-icon'/></li>
             </ul>
 				</div>
 			</div>
