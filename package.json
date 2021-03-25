@@ -8,6 +8,9 @@
         "build": "webpack",
         "start": "webpack serve"
     },
+    "engines": {
+        "node": "12.21.0"
+        },
     "keywords": [],
     "author": "Chris Wilson",
     "license": "ISC",
