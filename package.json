@@ -1,13 +1,12 @@
 {
-    "name": "AcmeClothingCo",
+    "name": "chrisportfolio",
     "version": "1.0.0",
     "description": "Ecommerce website displaying the latest fashion trends",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "webpack",
-        "start": "webpack serve",
-        "watch": "webpack --watch"
+        "start": "webpack serve"
     },
     "keywords": [],
     "author": "Chris Wilson",
@@ -28,6 +27,8 @@
         "precss": "^4.0.0",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
+        "react-icons": "^4.2.0",
+        "react-reveal": "^1.2.2",
         "sass-loader": "^11.0.1",
         "style-loader": "^2.0.0",
         "url-loader": "^4.1.1"
