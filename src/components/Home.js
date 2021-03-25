@@ -1,7 +1,7 @@
 import React from 'react';
 import BrainHeart from '../images/brainheart.png';
-import Rotate from 'react-reveal/Rotate';
-import Fade from 'react-reveal/fade';
+import Rotate from '../react-reveal/Rotate';
+import Fade from '../react-reveal/Fade';
 
 const Home = () => {
 	return (

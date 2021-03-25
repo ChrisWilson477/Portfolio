@@ -1,7 +1,7 @@
 import React from 'react';
 import Photo from '../images/me.jpg';
-import Slide from './react-reveal/Slide';
-import Zoom from './react-reveal/Zoom';
+import Slide from '../react-reveal/Slide';
+import Zoom from '../react-reveal/Zoom';
 
 const AboutMe = () => {
 	return (
