@@ -25,13 +25,16 @@ const Projects = () => {
 			</div>
 			<div className="row projects">
 				<div className="col span-1-of-3 project-box">
-					<img src="#" href="#" alt="Project1" />
+					<div className='projects-gifs'>
+						<iframe src="https://giphy.com/embed/Ka3MQfalG5G8fa1GqO" width="100%" height="100%" style={{ position:'absolute' }} frameBorder="0" >
+						</iframe>
+					</div>
 					<h4>Description</h4>
 					<p>
-						Built eCommerce clothing page using React as part of a small team{' '}
+						Built pure HTML5/CSS3 responsive mock home workout plan site
 					</p>
 					<p>
-						<a href="">GitHub</a>
+						<a target='_blank' href="https://github.com/ChrisWilson477/PureHTMLCSS">GitHub</a>
 					</p>
 					<p>
 						<strong>Technology Used:</strong>
@@ -41,30 +44,21 @@ const Projects = () => {
 							<FaJsSquare size="45px" title="Javascript" className="js-icon" />
 						</li>
 						<li>
-							<FaNodeJs size="45px" title="Node.js" className="node-icon" />
-						</li>
-						<li>
-							<FaReact size="45px" title="React" className="react-icon" />
+							<FaHtml5 size="45px" title="HTML5" className="html-icon" />
 						</li>
 						<li>
 							<FaCss3Alt size="45px" title="CSS" className="css-icon" />
 						</li>
-						<li>
-							<FaHtml5 size="45px" title="HTML5" className="html-icon" />
-						</li>
-						<li>
-							<FaDocker size="45px" title="Docker" className="docker-icon" />
-						</li>
 					</ul>
 				</div>
 				<div className="col span-1-of-3 project-box">
-					<img src="#" href="#" alt="Project2" />
+				<div className='projects-gifs'><iframe src="https://giphy.com/embed/O15A4DolpOBH7f4Cqw" width="100%" height="100%" style={{ position:'absolute' }} frameBorder="0"></iframe></div>
 					<h4>Description</h4>
 					<p>
 						Built out an Express Server and PSQL database for existing front-end
 					</p>
 					<p>
-						<a href="">GitHub</a>
+						<a target='_blank' href="https://github.com/ChrisWilson477/SDC-ProductOverview">GitHub</a>
 					</p>
 					<p>
 						<strong>Technology Used:</strong>
@@ -99,9 +93,7 @@ const Projects = () => {
 					</ul>
 				</div>
 				<div className="col span-1-of-3 project-box">
-					<a target='_blank' href="https://github.com/ChrisWilson477/DignusWellbeing">
-						<img src={Dignus} alt="Dignus Wellbeing" />
-					</a>
+				<div className='projects-gifs'><iframe src="https://giphy.com/embed/aOZai92HNvU5CC2944" width="100%" height="100%" style={{position:'absolute'}}frameBorder="0"></iframe></div>
 					<h4>Description</h4>
 					<p>
 						Built a mobile app with React Native to track moods for daily use

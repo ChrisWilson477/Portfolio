@@ -23,6 +23,8 @@ module.exports = {
 					loader: 'url-loader',
 				},
 			}
+
+
 		],
 	},
 	devServer: {
