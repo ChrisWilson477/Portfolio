@@ -10,7 +10,7 @@ const AboutMe = () => {
 				<h3> Let me tell you a little about myself! </h3>
 			</div>
 			<div className="row about-me-paragraph">
-				<div className="col span-1-of-3 box">
+				<div className="col span-1-of-3 about-me-box">
 					<Zoom delay={1000}>
 						<img src={Photo} alt="Photo of Chris" />
 					</Zoom>

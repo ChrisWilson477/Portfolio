@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Navbar = () => {
   return (
@@ -10,6 +11,7 @@ const Navbar = () => {
       <li><a href='#Projects'>Projects</a></li>
       <li><a href='#ContactMe'>Contact Me</a></li>
     </ul>
+    <a className='mobile-nav-icon'><AiOutlineMenu size='45px'/></a>
   </div>
   )
 }
