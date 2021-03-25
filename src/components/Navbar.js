@@ -4,11 +4,7 @@ import { MdClose } from 'react-icons/md';
 import Lantern from '../images/Lantern.jpg';
 
 const Navbar = () => {
-	const [isToggled, setToggled] = useState(false);
 
-	const useToggle = () => {
-		setToggled(!isToggled);
-	};
 
 	return (
 		<div className="row">
@@ -26,15 +22,6 @@ const Navbar = () => {
 					<a href="#ContactMe">Contact Me</a>
 				</li>
 			</ul>
-			{!isToggled ? (
-				<a className="mobile-nav-icon" onClick={useToggle}>
-					<AiOutlineMenu size="45px" />
-				</a>
-			) : (
-				<a className="mobile-nav-icon" onClick={useToggle}>
-					<MdClose size="45px" />
-				</a>
-			)}
 		</div>
 	);
 };

@@ -129,12 +129,15 @@ header {
 
 .home-left-text {
 	position:absolute;
-	color: #b3d7ab;
+	color: #fff;
 	text-align: center;
 	font-size: 300%;
 	top: 23%;
 	left: 17%;
 }
+
+
+
 
 .home-paragraph-text {
 	position:absolute;
@@ -145,20 +148,24 @@ header {
 	left: 23%;
 }
 
+.highlight{
+	color:rgb(252, 100, 12);
+}
+
 .home-paragraph-text-two {
 	position:absolute;
 	color: #fff;
 	text-align: center;
 	font-size: 140%;
 	top: 36%;
-	left: 30%;
+	left: 27%;
 }
 
 .home-right-text {
 	position: absolute;
 	color: #fff;
 	text-align: center;
-	font-size: 250%;
+	font-size: 300%;
 	top: 55%;
 	right: 25%;
 }
@@ -193,27 +200,35 @@ header {
 /* Projects */
 /*----------------------------------*/
 
+
+.projects {
+	padding-top: 100px;
+}
 .projects-section {
 	padding-top: 100px;
 	padding-bottom: 210px;
 	background-color: #f4f4f4
 }
 
-
-
-.project-box img {
-	width: 150px;
-	height: auto;
-	margin-bottom: 15px;
-	margin-top: 150px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-
+.projects-gifs {
+	width:100%;
+	height:0;
+	padding-bottom:51%;
+	position:relative;
 }
+
+
+
+.projects-gifs iframe{
+	pointer-events: none;
+}
+
+
+
 
 .project-box h4{
 	text-align: center;
+	padding-top: 50px;
 }
 
 .project-box p {
@@ -231,7 +246,7 @@ text-decoration: none;
 
 .project-box p a:active,
 .project-box p a:hover {
-color: #b3d7ab
+color: #2eca19;
 }
 
 .project-box ul {
@@ -328,7 +343,7 @@ color: #b3d7ab
 }
 
 .social-icons li a{
-	color: #b3d7ab;
+	color: #cf6d17;
 }
 
 

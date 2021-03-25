@@ -19,31 +19,9 @@
 @media only screen and (max-width: 1200px) {
 
   /* Home+Nav */
-  .mobile-nav-icon  {
-    position: absolute;
-    display: inline-block;
-    color: #fff;
-    top: 2%;
-    left: 85%;
-
-
+  .nav-ul{
+  margin-right: 4%
   }
-
-  .mobile-nav-ul {
-    display:block
-  }
-
-  .nav-ul li{
-    display: none;
-  }
-
-  .nav-ul-mobile li a:hover,
-  .nav-ul-mobile li a:active {
-    border: 0;
-  }
-
-
-
 
 
 
@@ -52,15 +30,22 @@
 
 /* small tablet to big tablet (ipad in portrait mode): from 768px to 1023px */
 @media only screen and (max-width: 1023px) {
- .about-me-paragraph {
+
+   /* Projects */
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ /* About Me */
+  .about-me-paragraph {
    flex-direction: column;
    align-items: center;
  }
 
   .about-me-paragraph p{
     text-align: justify;
-
-
  }
 
  .about-me-paragraph img {
@@ -68,21 +53,26 @@
    width: 200%;
    height: auto;
    margin-left: -45%
+ }
 
-
+ /*  Contact */
+ .contact-paragraph{
+   padding: 3px;
  }
 
 }
 
 /* Small phones to small tablets: from 481px to 767px (width of ipad is 768 so smaller) */
 @media only screen and (max-width: 767px) {
-
+  .home-paragraph-text-two {
+    left: 19%;
+  }
 
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-  /* Home */
+  /* Home+Nav */
   .home-paragraph-text {
     left: 15%
   }
@@ -99,8 +89,12 @@
     left: 17%;
   }
 
-  .nav-logo{
-    margin-left: 3%
+  .nav-ul{
+    margin-right: 10%;
+  }
+
+  .nav-ul li {
+    margin-left: 20px;
   }
 
   /* About Me */
@@ -113,11 +107,17 @@
     width: 100%;
     height: auto;
     margin-left: 0
-
-
   }
 
+  /* Projects */
+  .project-gifs{
+    padding: 3px;
+  }
+  .project-box {
+    padding-top: 40px;
+  }
 
+  /*  Contact */
   .contact-paragraph{
     padding: 40px 20px;
   }

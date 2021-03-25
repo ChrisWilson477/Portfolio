@@ -36,13 +36,13 @@ const Contact = () => {
 					</li>
 
 					<li>
-						<a target="_blank" href="https://facebook.com">
+						<a target="_blank" href="https://facebook.com/cawillison">
 							<FaFacebookSquare size="45px" className="facebook-icon" />
 						</a>
 					</li>
 
 					<li>
-						<a target="_blank" href="https://instagram.com">
+						<a target="_blank" href="https://instagram.com/jimmyjangles10">
 							<FaInstagram size="45px" className="instagram-icon" />
 						</a>
 					</li>
