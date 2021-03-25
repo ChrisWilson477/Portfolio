@@ -94,7 +94,7 @@
   }
 
   .nav-ul li {
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .nav-ul li a:hover,
@@ -105,6 +105,11 @@
   /* About Me */
   .about-me-paragraph p{
     padding: 20px 20px;;
+  }
+
+  .about-me-section {
+    padding-top: 100px;
+    padding-bottom: 150px;
   }
 
   .about-me-paragraph img {
@@ -123,6 +128,10 @@
   }
 
   /*  Contact */
+
+  .contact-section {
+    padding-top: 180px;
+  }
   .contact-paragraph{
     padding: 40px 20px;
   }
