@@ -12,7 +12,7 @@ const Contact = () => {
 			<div className="row">
 				<h3>I would love to hear from you!</h3>
 			</div>
-			<div className="row contact-me-body">
+			<div className="row ">
 				<div className="col">
 					<p className="contact-paragraph">
 						If you are looking for an addition to your team, have a project in

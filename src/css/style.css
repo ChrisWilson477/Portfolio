@@ -9,6 +9,7 @@
 }
 
 
+
 .App {
   background-color: #fff;
   color: #555;
@@ -19,33 +20,22 @@
 	overflow: hidden;
 }
 
-.row {
-  width: 1140px;
-  margin: 0 auto;
-}
 
 
-
-header {
-  background-image: linear-gradient(
-      rgba(27, 26, 27, 0.822),
-      rgba(17, 46, 25, 0.7)
-    ),
-    url(../images/bridge.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-
-}
 
 /* ---------------------------------*/
 /* REUSABLE COMPONENTS */
 /*----------------------------------*/
 
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 .box {
 	padding: 1%;
 }
+
 
 h3 {
 	text-align: center;
@@ -99,17 +89,39 @@ h3::after {
   display: none;
 }
 
+.mobile-nav-ul {
+  float: right;
+  list-style: none;
+  margin-top: 5%;
+  margin-right: -10%;
+}
+/*
  .nav-logo {
 	 height: 100px;
 	 width: 100px;
 	 float: left;
-	 margin-top: 5%;
-   margin-left: -5%
- }
+	 margin-top: 4%;
+   margin-left: -3%;
+	 border-radius: 50%;
+ } */
 
 /* ---------------------------------*/
 /* Home Page */
 /*----------------------------------*/
+
+header {
+  background-image: linear-gradient(
+      rgba(27, 26, 27, 0.822),
+      rgba(17, 46, 25, 0.7)
+    ),
+    url(../images/bridge.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+
+}
+
 
 .home {
  padding: 0;
@@ -163,17 +175,17 @@ h3::after {
 
 .about-me-paragraph {
   padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+
 }
-.about-me-box p {
+.about-me-paragraph p {
 	text-align: left;
-  padding-right: 30px;
-
 }
 
-.about-me-box img{
-	height: 370px;
-	width: 350px;
-	text-align: center;
+.about-me-paragraph img{
+	height: auto;
+	width: 105%;
   border-radius: 5%;
 }
 
@@ -298,8 +310,11 @@ color: #b3d7ab
 }
 
 .contact-paragraph {
+	padding: 80px 0;
 	font-size: 130%;
 	text-align: center;
+
+
 }
 
 .social-icons {
