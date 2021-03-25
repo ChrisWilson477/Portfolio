@@ -4,9 +4,9 @@
     "description": "Portfolio of my current work",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack",
-        "start": "webpack serve"
+        "dev": "webpack serve",
+        "start": "node server.js",
+        "build": "webpack --mode production"
     },
     "keywords": [],
     "author": "Chris Wilson",
