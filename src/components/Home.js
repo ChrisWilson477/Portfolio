@@ -15,7 +15,7 @@ const Home = () => {
 					</Fade>
 					<Fade delay={2200}>
 						<p className="home-paragraph-text">
-							A <span className="highlight">fullstack </span>developer <br />
+							A <span className="highlight">full stack </span>developer <br />
 						</p>
 					</Fade>
 					<Fade delay={3000}>

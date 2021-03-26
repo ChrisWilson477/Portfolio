@@ -16,7 +16,7 @@ const Contact = () => {
 				<div className="col">
 					<p className="contact-paragraph">
 						If you are looking for an addition to your team, have a project in
-						mind that needs building or just want to chat, don't hesitate to
+						mind that needs building, or just want to chat, don't hesitate to
 						reach out to me on any of the following platforms!
 					</p>
 				</div>

@@ -18,28 +18,15 @@ const AboutMe = () => {
 				<div className="col span-2-of-3 box">
 					<Slide right delay={1000}>
 						<p>
-							Motivated by the pursuit of exploration, a love of innovation has
-							pushed me into the beautiful world of full stack web development.
-							My strength lies in the Javascript language but I have a great
-							learning capacity and am constantly expanding my technical
-							toolbelt with frameworks and languages. As a U.S. Army veteran, I
-							have been equipped with an extensive array of leadership,
-							team-building and problem solving skills vital to any company. And
-							as a person, I am passionate, outgoing and love to work hard.
+							Motivated by the pursuit of exploration, a love of innovation has pushed me into the beautiful world of full stack web development. My strength lies in the Javascript language but I have a great learning capacity and am constantly expanding my technical toolbelt with frameworks and languages. As a U.S. Army veteran, I have been equipped with an extensive array of leadership, team-building and problem solving skills vital to any company. And as a person, I am passionate, outgoing and love to work hard.
 						</p>
 						<br />
 						<p>
-							When I'm not coding I enjoy exploring the world and learning about
-							new cultures when I can. I've been to over 15 different countries
-							and possess a definite wanderlust mentality. When I am home, I
-							tend to enjoy my weekends outdoors hiking, camping or at a local
-							brewery and my weekends indoors playing guitar, gaming or deep in
-							a DnD conquest.
+              When I'm not coding, I enjoy exploring the world and learning about new cultures. I have been to over 15 countries and possess a definite wanderlust mentality. When I am at home, I tend to enjoy my weekends outdoors hiking, camping or at a local brewery. If I decide to stay indoors, you'll usually find me playing guitar, gaming or deep in a DnD conquest.
 						</p>
 						<br />
 						<p>
-							I am looking for a software engineering position in Colorado, a
-							remote position or would consider the possibility of relocation
+              I am looking for a software engineering position in Colorado, a remote position, or would consider the possibility of relocation.
 						</p>
 					</Slide>
 				</div>
