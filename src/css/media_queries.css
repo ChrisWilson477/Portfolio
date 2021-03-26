@@ -45,7 +45,7 @@
  }
 
   .about-me-paragraph p{
-    text-align: justify;
+    text-align:start;
  }
 
  .about-me-paragraph img {
@@ -104,7 +104,8 @@
 
   /* About Me */
   .about-me-paragraph p{
-    padding: 20px 20px;;
+    padding: 20px 20px;
+
   }
 
   .about-me-section {
