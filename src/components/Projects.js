@@ -34,6 +34,8 @@ const Projects = () => {
 						Built pure HTML5/CSS3 responsive mock home workout plan site
 					</p>
 					<p>
+					<a target='_blank' href="https://superflexmock.herokuapp.com/">Live Site</a>
+					{' '}|{' '}
 						<a target='_blank' href="https://github.com/ChrisWilson477/PureHTMLCSS">GitHub</a>
 					</p>
 					<p>
@@ -51,6 +53,49 @@ const Projects = () => {
 						</li>
 					</ul>
 				</div>
+				<div className="col span-1-of-3 project-box">
+				<div className='projects-gifs'><iframe src="https://giphy.com/embed/QA6Tq9sXzA6GoIRgUG" width="100%" height="100%" style={{position:'absolute'}}frameBorder="0"></iframe></div>
+					<h4>Description</h4>
+					<p>
+						Built a mobile app with React Native to track moods for daily use
+					</p>
+					<p>
+						<a
+							target="_blank"
+							href="https://github.com/ChrisWilson477/DignusWellbeing"
+						>
+							GitHub
+						</a>
+					</p>
+					<p>
+						<strong>Technology Used:</strong>
+					</p>
+					<ul>
+						<li>
+							<FaJsSquare size="45px" title="Javascript" className="js-icon" />
+						</li>
+						<li>
+							<FaNodeJs size="45px" title="Node.js" className="node-icon" />
+						</li>
+						<li>
+							<FaReact size="45px" title="React" className="react-icon" />
+						</li>
+						<li>
+							<FaCss3Alt size="45px" title="CSS" className="css-icon" />
+						</li>
+						<li>
+							<FaHtml5 size="45px" title="HTML5" className="html-icon" />
+						</li>
+						<li>
+							<FaAws
+								size="45px"
+								title="Amazon Web Services"
+								className="aws-icon"
+							/>
+						</li>
+					</ul>
+				</div>
+
 				<div className="col span-1-of-3 project-box">
 				<div className='projects-gifs'><iframe src="https://giphy.com/embed/O15A4DolpOBH7f4Cqw" width="100%" height="100%" style={{ position:'absolute' }} frameBorder="0"></iframe></div>
 					<h4>Description</h4>
@@ -92,48 +137,7 @@ const Projects = () => {
 						</li>
 					</ul>
 				</div>
-				<div className="col span-1-of-3 project-box">
-				<div className='projects-gifs'><iframe src="https://giphy.com/embed/aOZai92HNvU5CC2944" width="100%" height="100%" style={{position:'absolute'}}frameBorder="0"></iframe></div>
-					<h4>Description</h4>
-					<p>
-						Built a mobile app with React Native to track moods for daily use
-					</p>
-					<p>
-						<a
-							target="_blank"
-							href="https://github.com/ChrisWilson477/DignusWellbeing"
-						>
-							GitHub
-						</a>
-					</p>
-					<p>
-						<strong>Technology Used:</strong>
-					</p>
-					<ul>
-						<li>
-							<FaJsSquare size="45px" title="Javascript" className="js-icon" />
-						</li>
-						<li>
-							<FaNodeJs size="45px" title="Node.js" className="node-icon" />
-						</li>
-						<li>
-							<FaReact size="45px" title="React" className="react-icon" />
-						</li>
-						<li>
-							<FaCss3Alt size="45px" title="CSS" className="css-icon" />
-						</li>
-						<li>
-							<FaHtml5 size="45px" title="HTML5" className="html-icon" />
-						</li>
-						<li>
-							<FaAws
-								size="45px"
-								title="Amazon Web Services"
-								className="aws-icon"
-							/>
-						</li>
-					</ul>
-				</div>
+
 			</div>
 		</div>
 	);
